@@ -1,0 +1,8 @@
+2022-08-11 00:56:43,948 INFO c.o.RetailOrderManagementSystemApplication [restartedMain] Starting RetailOrderManagementSystemApplication using Java 17.0.3 on DESKTOP-O7LOD5M with PID 5928 (C:\Users\email\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\Retail_Order_Management_System\target\classes started by email in C:\Users\email\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\Retail_Order_Management_System)
+2022-08-11 00:56:43,957 DEBUG c.o.RetailOrderManagementSystemApplication [restartedMain] Running with Spring Boot v2.7.2, Spring v5.3.22
+2022-08-11 00:56:43,957 INFO c.o.RetailOrderManagementSystemApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-08-11 00:56:47,675 INFO c.o.RetailOrderManagementSystemApplication [restartedMain] Started RetailOrderManagementSystemApplication in 4.092 seconds (JVM running for 5.227)
+2022-08-11 00:56:54,506 DEBUG c.o.c.UserController [http-nio-8080-exec-2] getAllUsers
+2022-08-11 00:56:54,506 INFO c.o.c.UserController [http-nio-8080-exec-2] getAllUsers
+2022-08-11 00:56:54,506 WARN c.o.c.UserController [http-nio-8080-exec-2] getAllUsers
+2022-08-11 00:56:54,506 ERROR c.o.c.UserController [http-nio-8080-exec-2] getAllUsers

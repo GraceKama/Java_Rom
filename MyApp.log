@@ -1,0 +1,141 @@
+2022-Aug-11 00:27:27 [background-preinit] INFO  o.h.v.i.u.Version                                  - HV000001: Hibernate Validator 6.2.3.Final
+2022-Aug-11 00:27:27 [restartedMain] INFO  c.o.RetailOrderManagementSystemApplication         - Starting RetailOrderManagementSystemApplication using Java 17.0.3 on DESKTOP-O7LOD5M with PID 13576 (C:\Users\email\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\Retail_Order_Management_System\target\classes started by email in C:\Users\email\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\Retail_Order_Management_System)
+2022-Aug-11 00:27:27 [restartedMain] INFO  c.o.RetailOrderManagementSystemApplication         - No active profile set, falling back to 1 default profile: "default"
+2022-Aug-11 00:27:27 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-Aug-11 00:27:27 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-Aug-11 00:27:28 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Multiple Spring Data modules found, entering strict repository configuration mode
+2022-Aug-11 00:27:28 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-Aug-11 00:27:28 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport  - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.ordermanagement.dao.OrderItemsDao; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-Aug-11 00:27:28 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport  - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.ordermanagement.dao.OrdersDao; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-Aug-11 00:27:28 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport  - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.ordermanagement.dao.ProductsDao; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-Aug-11 00:27:28 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport  - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.ordermanagement.dao.UserDao; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-Aug-11 00:27:28 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 26 ms. Found 0 JDBC repository interfaces.
+2022-Aug-11 00:27:28 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Multiple Spring Data modules found, entering strict repository configuration mode
+2022-Aug-11 00:27:28 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-Aug-11 00:27:28 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 31 ms. Found 4 JPA repository interfaces.
+2022-Aug-11 00:27:29 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat initialized with port(s): 8080 (http)
+2022-Aug-11 00:27:29 [restartedMain] INFO  o.a.c.h.Http11NioProtocol                          - Initializing ProtocolHandler ["http-nio-8080"]
+2022-Aug-11 00:27:29 [restartedMain] INFO  o.a.c.c.StandardService                            - Starting service [Tomcat]
+2022-Aug-11 00:27:29 [restartedMain] INFO  o.a.c.c.StandardEngine                             - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-Aug-11 00:27:29 [restartedMain] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring embedded WebApplicationContext
+2022-Aug-11 00:27:29 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1288 ms
+2022-Aug-11 00:27:29 [restartedMain] INFO  o.h.j.i.u.LogHelper                                - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-Aug-11 00:27:29 [restartedMain] INFO  o.h.Version                                        - HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-Aug-11 00:27:29 [restartedMain] INFO  o.h.a.c.Version                                    - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-Aug-11 00:27:29 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Starting...
+2022-Aug-11 00:27:29 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Start completed.
+2022-Aug-11 00:27:29 [restartedMain] INFO  o.h.d.Dialect                                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-Aug-11 00:27:30 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-Aug-11 00:27:30 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-Aug-11 00:27:30 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-Aug-11 00:27:31 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2022-Aug-11 00:27:31 [restartedMain] INFO  o.a.c.h.Http11NioProtocol                          - Starting ProtocolHandler ["http-nio-8080"]
+2022-Aug-11 00:27:31 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat started on port(s): 8080 (http) with context path ''
+2022-Aug-11 00:27:31 [restartedMain] INFO  c.o.RetailOrderManagementSystemApplication         - Started RetailOrderManagementSystemApplication in 3.777 seconds (JVM running for 4.783)
+2022-Aug-11 00:27:31 [restartedMain] INFO  c.o.RetailOrderManagementSystemApplication         - RetailOrderManagementSystemApplication Statrted  and running.
+2022-Aug-11 00:28:13 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-Aug-11 00:28:13 [http-nio-8080-exec-2] INFO  o.s.w.s.DispatcherServlet                          - Initializing Servlet 'dispatcherServlet'
+2022-Aug-11 00:28:13 [http-nio-8080-exec-2] INFO  o.s.w.s.DispatcherServlet                          - Completed initialization in 0 ms
+2022-Aug-11 00:28:22 [http-nio-8080-exec-2] INFO  c.o.s.UserService                                  - Calling getAllUsers()
+2022-Aug-11 00:28:22 [http-nio-8080-exec-2] WARN  c.o.s.UserService                                  - Calling getAllUsers()
+2022-Aug-11 00:28:22 [http-nio-8080-exec-2] ERROR c.o.s.UserService                                  - Calling getAllUsers()
+2022-Aug-11 00:31:12 [Thread-5] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-Aug-11 00:31:12 [Thread-5] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Shutdown initiated...
+2022-Aug-11 00:31:12 [Thread-5] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Shutdown completed.
+2022-Aug-11 00:35:40 [restartedMain] INFO  c.o.RetailOrderManagementSystemApplication         - Starting RetailOrderManagementSystemApplication using Java 17.0.3 on DESKTOP-O7LOD5M with PID 22000 (C:\Users\email\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\Retail_Order_Management_System\target\classes started by email in C:\Users\email\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\Retail_Order_Management_System)
+2022-Aug-11 00:35:40 [restartedMain] INFO  c.o.RetailOrderManagementSystemApplication         - No active profile set, falling back to 1 default profile: "default"
+2022-Aug-11 00:35:40 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Multiple Spring Data modules found, entering strict repository configuration mode
+2022-Aug-11 00:35:40 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-Aug-11 00:35:40 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport  - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.ordermanagement.dao.OrderItemsDao; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-Aug-11 00:35:40 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport  - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.ordermanagement.dao.OrdersDao; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-Aug-11 00:35:40 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport  - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.ordermanagement.dao.ProductsDao; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-Aug-11 00:35:40 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport  - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.ordermanagement.dao.UserDao; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-Aug-11 00:35:40 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+2022-Aug-11 00:35:40 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Multiple Spring Data modules found, entering strict repository configuration mode
+2022-Aug-11 00:35:40 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-Aug-11 00:35:40 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 9 ms. Found 4 JPA repository interfaces.
+2022-Aug-11 00:35:40 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat initialized with port(s): 8080 (http)
+2022-Aug-11 00:35:40 [restartedMain] INFO  o.a.c.h.Http11NioProtocol                          - Initializing ProtocolHandler ["http-nio-8080"]
+2022-Aug-11 00:35:40 [restartedMain] INFO  o.a.c.c.StandardService                            - Starting service [Tomcat]
+2022-Aug-11 00:35:40 [restartedMain] INFO  o.a.c.c.StandardEngine                             - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-Aug-11 00:35:40 [restartedMain] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring embedded WebApplicationContext
+2022-Aug-11 00:35:40 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 286 ms
+2022-Aug-11 00:35:40 [restartedMain] INFO  o.h.j.i.u.LogHelper                                - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-Aug-11 00:35:40 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-2 - Starting...
+2022-Aug-11 00:35:40 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-2 - Start completed.
+2022-Aug-11 00:35:40 [restartedMain] INFO  o.h.d.Dialect                                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-Aug-11 00:35:40 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-Aug-11 00:35:40 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-Aug-11 00:35:40 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-Aug-11 00:35:41 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2022-Aug-11 00:35:41 [restartedMain] INFO  o.a.c.h.Http11NioProtocol                          - Starting ProtocolHandler ["http-nio-8080"]
+2022-Aug-11 00:35:41 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat started on port(s): 8080 (http) with context path ''
+2022-Aug-11 00:35:41 [restartedMain] INFO  c.o.RetailOrderManagementSystemApplication         - Started RetailOrderManagementSystemApplication in 0.771 seconds (JVM running for 147.131)
+2022-Aug-11 00:35:41 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  - Condition evaluation unchanged
+2022-Aug-11 00:35:41 [restartedMain] INFO  c.o.RetailOrderManagementSystemApplication         - RetailOrderManagementSystemApplication Statrted  and running.
+2022-Aug-11 00:35:52 [background-preinit] INFO  o.h.v.i.u.Version                                  - HV000001: Hibernate Validator 6.2.3.Final
+2022-Aug-11 00:35:52 [restartedMain] INFO  c.o.RetailOrderManagementSystemApplication         - Starting RetailOrderManagementSystemApplication using Java 17.0.3 on DESKTOP-O7LOD5M with PID 26840 (C:\Users\email\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\Retail_Order_Management_System\target\classes started by email in C:\Users\email\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\Retail_Order_Management_System)
+2022-Aug-11 00:35:52 [restartedMain] INFO  c.o.RetailOrderManagementSystemApplication         - No active profile set, falling back to 1 default profile: "default"
+2022-Aug-11 00:35:52 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-Aug-11 00:35:52 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-Aug-11 00:35:52 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Multiple Spring Data modules found, entering strict repository configuration mode
+2022-Aug-11 00:35:52 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-Aug-11 00:35:52 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport  - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.ordermanagement.dao.OrderItemsDao; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-Aug-11 00:35:52 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport  - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.ordermanagement.dao.OrdersDao; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-Aug-11 00:35:52 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport  - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.ordermanagement.dao.ProductsDao; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-Aug-11 00:35:52 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport  - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.ordermanagement.dao.UserDao; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-Aug-11 00:35:52 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 27 ms. Found 0 JDBC repository interfaces.
+2022-Aug-11 00:35:52 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Multiple Spring Data modules found, entering strict repository configuration mode
+2022-Aug-11 00:35:52 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-Aug-11 00:35:52 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 26 ms. Found 4 JPA repository interfaces.
+2022-Aug-11 00:35:53 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat initialized with port(s): 8080 (http)
+2022-Aug-11 00:35:53 [restartedMain] INFO  o.a.c.h.Http11NioProtocol                          - Initializing ProtocolHandler ["http-nio-8080"]
+2022-Aug-11 00:35:53 [restartedMain] INFO  o.a.c.c.StandardService                            - Starting service [Tomcat]
+2022-Aug-11 00:35:53 [restartedMain] INFO  o.a.c.c.StandardEngine                             - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-Aug-11 00:35:53 [restartedMain] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring embedded WebApplicationContext
+2022-Aug-11 00:35:53 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1194 ms
+2022-Aug-11 00:35:53 [restartedMain] INFO  o.h.j.i.u.LogHelper                                - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-Aug-11 00:35:53 [restartedMain] INFO  o.h.Version                                        - HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-Aug-11 00:35:53 [restartedMain] INFO  o.h.a.c.Version                                    - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-Aug-11 00:35:53 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Starting...
+2022-Aug-11 00:35:53 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Start completed.
+2022-Aug-11 00:35:53 [restartedMain] INFO  o.h.d.Dialect                                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-Aug-11 00:35:54 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-Aug-11 00:35:54 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-Aug-11 00:35:54 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-Aug-11 00:35:55 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer                 - Unable to start LiveReload server
+2022-Aug-11 00:35:55 [restartedMain] INFO  o.a.c.h.Http11NioProtocol                          - Starting ProtocolHandler ["http-nio-8080"]
+2022-Aug-11 00:35:55 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2022-Aug-11 00:35:55 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-Aug-11 00:35:55 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Shutdown initiated...
+2022-Aug-11 00:35:55 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Shutdown completed.
+2022-Aug-11 00:35:55 [restartedMain] INFO  o.a.c.h.Http11NioProtocol                          - Pausing ProtocolHandler ["http-nio-8080"]
+2022-Aug-11 00:35:55 [restartedMain] INFO  o.a.c.c.StandardService                            - Stopping service [Tomcat]
+2022-Aug-11 00:35:55 [restartedMain] INFO  o.a.c.h.Http11NioProtocol                          - Stopping ProtocolHandler ["http-nio-8080"]
+2022-Aug-11 00:35:55 [restartedMain] INFO  o.a.c.h.Http11NioProtocol                          - Destroying ProtocolHandler ["http-nio-8080"]
+2022-Aug-11 00:35:55 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-Aug-11 00:35:55 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter             - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-Aug-11 00:37:15 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-Aug-11 00:37:15 [http-nio-8080-exec-2] INFO  o.s.w.s.DispatcherServlet                          - Initializing Servlet 'dispatcherServlet'
+2022-Aug-11 00:37:15 [http-nio-8080-exec-2] INFO  o.s.w.s.DispatcherServlet                          - Completed initialization in 2 ms
+2022-Aug-11 00:37:29 [http-nio-8080-exec-2] INFO  c.o.s.UserService                                  - Calling getAllUsers()
+2022-Aug-11 00:37:29 [http-nio-8080-exec-2] WARN  c.o.s.UserService                                  - Calling getAllUsers()
+2022-Aug-11 00:37:29 [http-nio-8080-exec-2] ERROR c.o.s.UserService                                  - Calling getAllUsers()
+2022-Aug-11 00:42:15 [Thread-7] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-Aug-11 00:42:15 [Thread-7] INFO  c.z.h.HikariDataSource                             - HikariPool-2 - Shutdown initiated...
+2022-Aug-11 00:42:15 [Thread-7] INFO  c.z.h.HikariDataSource                             - HikariPool-2 - Shutdown completed.
